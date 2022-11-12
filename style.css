@@ -1,0 +1,29 @@
+.box{
+    transform: perspective(500px) scaleZ(2) rotateY(25deg);
+    border: 2px solid #000;
+    width: 400px;
+    height: 300px;
+}
+.box2{
+    border: 2px solid #000;
+    width: 400px;
+    height: 300px;
+}
+.vb{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.box3{
+    transform: perspective(500px) scaleZ(2) rotateY(155deg);
+    width: 400px;
+    border: 2px solid #000;
+    height: 300px;
+}
+.box4{
+    transform: perspective(500px) scaleZ(2) rotateX(35deg);
+    border: 2px solid #000;
+    width: 1500px;
+    height: 200px;
+}
